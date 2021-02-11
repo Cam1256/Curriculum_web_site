@@ -1,0 +1,29 @@
+.hero {
+
+    &__image {
+        //position: relative;
+        background-image: url('/images/__fondo_intro_movil2.png');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+        min-height: 17.5rem;
+
+        &::before {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            background-image: url('/images/__fondo\ desktop.jpg');
+            background-size: 93%;
+            background-repeat: no-repeat;
+            background-position: center center;
+        }
+    }
+
+    &__text {
+
+        background-color: white;
+        padding: 20px;
+
+    }
+
+}
